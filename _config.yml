@@ -28,19 +28,9 @@ social:
     - https://github.com/ajmenzel7788 # change to your GitHub homepage
     - https://www.linkedin.com/in/aaron-menzel-2494a6129 # change to your LinkedIN page
 
-# Site Verification Settings
-webmaster_verifications:
-  google: # fill in your Google verification code
-  bing: # fill in your Bing verification code
-  alexa: # fill in your Alexa verification code
-  yandex: # fill in your Yandex verification code
-  baidu: # fill in your Baidu verification code
-  facebook: # fill in your Facebook verification code
-
-# ↑ --------------------------
-# The end of `jekyll-seo-tag` settings
-
-# Web Analytics Settings
+# ────────────────────────────
+# 📈 Analytics
+# ────────────────────────────
 analytics:
   google:
     id: # fill in your Google Analytics ID

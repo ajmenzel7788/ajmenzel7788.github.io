@@ -9,11 +9,12 @@ timezone: Europe/Berlin # https://zones.arilyn.cc
 # 🪄 Branding
 # ────────────────────────────
 title: IntuneCloudSec 
-tagline: Posts around Microsoft Intune, Entra ID, WIndows, amcOS, iOS/iPadOS, Android ENterprise and more..
+tagline: Posts around Microsoft Intune, Entra ID, WIndows, amcOS, iOS/iPadOS, Android and more..
 description: >- 
-  My personal blog for topics around Unified Endpoint Management with Microsoft Intune maybe some other things. Lets see how it works.
+  My personal blog for topics around Unified Endpoint Management with Microsoft Intune and maybe some other things. Lets see how it works.
 
 url: "https://ajmenzel7788.github.io"
+baseurl: ""
 
 # ────────────────────────────
 # 📱 Social profiles
@@ -49,9 +50,7 @@ analytics:
 
 pageviews:
   provider: goatcounter
-
-
-theme_mode: dark # [light | dark]
+  
 cdn:
 
 # ────────────────────────────
@@ -60,58 +59,52 @@ cdn:
 avatar: "/assets/pictures/avatar.jpg"
 social_preview_image: "/assets/pictures/avatar.jpg"
 
-# The URL of the site-wide social preview image used in SEO `og:image` meta tag.
-# It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
-
-# boolean type, the global switch for TOC in posts.
-toc: true
-
+# ────────────────────────────
+# 📐 Comments
+# ────────────────────────────
 comments:
-  # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: # [disqus | utterances | giscus]
-  # The provider options are as follows:
+  provider: disqus
   disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-  # utterances settings › https://utteranc.es/
+    shortname: IntuneCloudSec
   utterances:
-    repo: # <gh-username>/<repo>
-    issue_term: # < url | pathname | title | ...>
-  # Giscus options › https://giscus.app
+    repo: 
+    issue_term: 
   giscus:
-    repo: # <gh-username>/<repo>
+    repo:
     repo_id:
     category:
     category_id:
-    mapping: # optional, default to 'pathname'
-    strict: # optional, default to '0'
-    input_position: # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
-    reactions_enabled: # optional, default to the value of `1`
+    mapping: 
+    strict: 
+    input_position: 
+    lang: 
+    reactions_enabled: 
 
+# ────────────────────────────
+# 🖼 Assets
+# ────────────────────────────
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled: # boolean, keep empty means false
-    # specify the Jekyll environment, empty means both
-    # only works if `assets.self_host.enabled` is 'true'
-    env: # [development | production]
-
+    enabled:
+    env: 
+    
+# ────────────────────────────
+# 📐 Layout & Features
+# ────────────────────────────
+toc: true
+theme_mode: dark
 pwa:
-  enabled: true # The option for PWA feature (installable)
+  enabled: true 
   cache:
-    enabled: true # The option for PWA offline cache
-    # Paths defined here will be excluded from the PWA cache.
-    # Usually its value is the `baseurl` of another website that
-    # shares the same domain name as the current website.
+    enabled: true
     deny_paths:
-      # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
-
+    
 paginate: 10
 
-# The base URL of your site
-baseurl: ""
-
+# ────────────────────────────
+# ⚙️  Defaults / Collections
+# ────────────────────────────
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
@@ -165,6 +158,9 @@ compress_html:
   ignore:
     envs: [development]
 
+# ────────────────────────────
+# 📂 Exclude
+# ────────────────────────────
 exclude:
   - "*.gem"
   - "*.gemspec"
@@ -176,6 +172,9 @@ exclude:
   - "*.config.js"
   - "package*.json"
 
+# ────────────────────────────
+# 🏷 Archives
+# ────────────────────────────
 jekyll-archives:
   enabled: [categories, tags]
   layouts:

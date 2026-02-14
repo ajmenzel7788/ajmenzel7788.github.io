@@ -33,45 +33,30 @@ social:
 # ────────────────────────────
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: 
   goatcounter:
-    id: # fill in your GoatCounter ID
+    id: menztec.goatcounter.com
   umami:
-    id: # fill in your Umami ID
-    domain: # fill in your Umami domain
+    id: 
+    domain: 
   matomo:
-    id: # fill in your Matomo ID
-    domain: # fill in your Matomo domain
+    id: 
+    domain: n
   cloudflare:
-    id: # fill in your Cloudflare Web Analytics token
+    id: 
   fathom:
-    id: # fill in your Fathom Site ID
+    id: 
 
-# Page views settings
 pageviews:
-  provider: # now only supports 'goatcounter'
+  provider: goatcounter
 
-# Prefer color scheme setting.
-#
-# Note: Keep empty will follow the system prefer color by default,
-# and there will be a toggle to switch the theme between dark and light
-# on the bottom left of the sidebar.
-#
-# Available options:
-#
-#     light — Use the light color scheme
-#     dark — Use the dark color scheme
-#
+
 theme_mode: dark # [light | dark]
-
-# The CDN endpoint for media resources.
-# Notice that once it is assigned, the CDN url
-# will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
-#
-# e.g. 'https://cdn.com'
 cdn:
 
-# the avatar on sidebar, support local or CORS resources
+# ────────────────────────────
+# 🖼  Media / Assets
+# ────────────────────────────
 avatar: "/assets/pictures/avatar.jpg"
 social_preview_image: "/assets/pictures/avatar.jpg"
 

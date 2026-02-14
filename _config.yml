@@ -1,48 +1,32 @@
-# The Site Configuration
-
-# Import the theme
+# ────────────────────────────
+# 🌐 Site & Theme
+# ────────────────────────────
 theme: jekyll-theme-chirpy
-
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
 lang: en
+timezone: Europe/Berlin # https://zones.arilyn.cc
 
-# Change to your timezone › https://zones.arilyn.cc
-timezone: Europe/Berlin
+# ────────────────────────────
+# 🪄 Branding
+# ────────────────────────────
+title: IntuneSec 
+tagline: IT-Consultant | Unified Endpoint Management 
+description: >- 
+  My personal blog for topics around Unified Endpoint Management with Microsoft Intune maybe some other things. Lets see how it works.
 
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# ↓ --------------------------
-
-title: Aaron Menzel # the main title
-
-tagline: IT Consultant | Unified Endpoint Management # it will display as the subtitle
-
-description: >- # used by seo meta and the atom feed
-  My personal blog for topics around Unified Endpoint Management and other things.
-
-# Fill in the protocol & hostname for your site.
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://ajmenzel7788.github.io"
 
+# ────────────────────────────
+# 📱 Social profiles
+# ────────────────────────────
 github:
   username: ajmenzel7788 # change to your GitHub username
 
-#twitter:
-#  username: twitter_username # change to your Twitter username
-
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Aaron Menzel
   email: aaron.menzel@menztec.com # change to your email address
   links:
-    # The first element serves as the copyright owner's link
-    - https://github.com/username # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://twitter.com/username # change to your Twitter homepage
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://github.com/ajmenzel7788 # change to your GitHub homepage
+    - https://www.linkedin.com/in/aaron-menzel-2494a6129 # change to your LinkedIN page
 
 # Site Verification Settings
 webmaster_verifications:

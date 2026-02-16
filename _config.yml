@@ -56,8 +56,8 @@ cdn:
 # ────────────────────────────
 # 🖼  Media / Assets
 # ────────────────────────────
-avatar: "/assets/pictures/avatar.jpg"
-social_preview_image: "/assets/pictures/avatar.jpg"
+avatar: "/assets/other/avatar.jpg"
+social_preview_image: "/assets/other/avatar.jpg"
 
 # ────────────────────────────
 # 📐 Comments

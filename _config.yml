@@ -63,14 +63,14 @@ social_preview_image: "/assets/pictures/avatar.jpg"
 # 📐 Comments
 # ────────────────────────────
 comments:
-  provider: disqus
+  provider: giscus
   disqus:
-    shortname: IntuneCloudSec
+    shortname:
   utterances:
     repo: 
     issue_term: 
   giscus:
-    repo:
+    repo: ajmenzel7788/ajmenzel7788.github.io
     repo_id:
     category:
     category_id:

@@ -71,14 +71,14 @@ comments:
     issue_term: 
   giscus:
     repo: ajmenzel7788/ajmenzel7788.github.io
-    repo_id:
-    category:
+    repo_id: R_kgDORPjIfw
+    category: 
     category_id:
-    mapping: 
-    strict: 
-    input_position: 
-    lang: 
-    reactions_enabled: 
+    mapping: url
+    strict: 0
+    input_position: bottom
+    lang: en
+    reactions_enabled:
 
 # ────────────────────────────
 # 🖼 Assets

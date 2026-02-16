@@ -5,12 +5,12 @@ order: 4
 title: Aaron Menzel - menz.tec
 ---
 
-# Me
+## Me
 Hello, I'm Aaron Menzel – a system engineer in the field of unified endpoint management with a passion for IT infrastructure from the most beautiful state in Germany, Saarland.
 
 Since completing my computer science degree, I have been surviving in the IT world for 10 years, including 8 years at SVA System Vertrieb Alexander GmbH in Wiesbaden. My daily business? Pure Unified Endpoint Management: Microsoft Intune is my turf, supplemented by general topics such as Windows, iOS/iPadOS, macOS, Android Enterprise, Microsoft PKI, Entra ID, and Conditional Access. Whether it's policy deployment, certificate authentication, or VPN troubleshooting, I optimize endpoints to keep everything running smoothly.
 
-# Skills
+## Skills
 - Microsoft Intune (all of it).
 - Platform management: iOS/iPadOS, macOS, Android Enterprise, Windows.
 - Security: Microsoft PKI, Entra ID, Conditional Access.

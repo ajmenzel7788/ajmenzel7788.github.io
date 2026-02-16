@@ -17,5 +17,6 @@ Since completing my computer science degree, I have been surviving in the IT wor
 
 In my free time, I recharge my batteries with mountain bike and gravel bike tours in nature, play video games, or pump iron at the gym—perfect for clearing my head.
 
+
 > If you're an IT professional struggling with Intune or UEM issues, I share tips, scripts, and lessons learned here. Write to me or subscribe to the blog—let's connect! 😊
-{: .prompt-tip }
+{: .prompt-info }

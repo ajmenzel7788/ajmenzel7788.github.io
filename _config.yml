@@ -72,8 +72,8 @@ comments:
   giscus:
     repo: ajmenzel7788/ajmenzel7788.github.io
     repo_id: R_kgDORPjIfw
-    category: 
-    category_id:
+    category: General
+    category_id: DIC_kwDORPjIf84C2jNW
     mapping: url
     strict: 0
     input_position: bottom

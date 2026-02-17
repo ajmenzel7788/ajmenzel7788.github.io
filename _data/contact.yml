@@ -2,13 +2,10 @@
 
 - type: github
   icon: "fab fa-github"
-
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
-
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+  
+- type: linkedin
+  icon: 'fab fa-linkedin'
+  url:  'https://de.linkedin.com/in/aaron-menzel-2494a6129'             
 
 - type: rss
   icon: "fas fa-rss"

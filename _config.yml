@@ -12,7 +12,6 @@ title: ☁️IntuneCloudSec
 tagline: Posts around Microsoft Intune, Entra ID, Windows, macOS, iOS/iPadOS, Android and more..
 description: >- 
   My personal blog for topics around Unified Endpoint Management with Microsoft Intune and maybe some other things. Lets see how it works.
-
 url: "https://ajmenzel7788.github.io"
 baseurl: ""
 
@@ -21,7 +20,6 @@ baseurl: ""
 # ────────────────────────────
 github:
   username: ajmenzel7788 # change to your GitHub username
-
 social:
   name: Aaron Menzel
   email: aaron.menzel@menztec.com # change to your email address
@@ -47,10 +45,8 @@ analytics:
     id: 
   fathom:
     id: 
-
 pageviews:
   provider: goatcounter
-  
 cdn:
 
 # ────────────────────────────
@@ -99,14 +95,12 @@ pwa:
   cache:
     enabled: true
     deny_paths:
-    
 paginate: 10
 
 # ────────────────────────────
 # ⚙️  Defaults / Collections
 # ────────────────────────────
 # ------------ The following options are not recommended to be modified ------------------
-
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
@@ -117,13 +111,11 @@ kramdown:
       line_numbers: false
     block:
       line_numbers: true
-      start_line: 1
-
+      start_line: 
 collections:
   tabs:
     output: true
     sort_by: order
-
 defaults:
   - scope:
       path: "" # An empty string here means all files in the project
@@ -145,10 +137,8 @@ defaults:
     values:
       layout: page
       permalink: /:title/
-
 sass:
   style: compressed
-
 compress_html:
   clippings: all
   comments: all

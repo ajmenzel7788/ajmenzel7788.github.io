@@ -157,7 +157,7 @@ exclude:
   - docs
   - tools
   - README.md
-  - LICENSE
+  - LICENSE.md
   - purgecss.js
   - "*.config.js"
   - "package*.json"

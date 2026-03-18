@@ -7,4 +7,4 @@ This is the repository for my personal blog, which is published under https://bl
 This repository is automatically updated with new releases, files and blog posts.
 
 ## License
-This work is published under [MIT][mit] License.
+This work is published under MIT License.
